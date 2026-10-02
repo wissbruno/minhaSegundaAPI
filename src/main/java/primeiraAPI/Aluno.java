@@ -3,7 +3,7 @@
 //  que esta no topo do arquivo PrimeiraApiApplication.java
 //  (ex.: package com.example.primeiraAPI;)
 // ============================================================
-package com.example.primeiraAPI;
+package primeiraAPI;
 
 /**
  * MODEL (o "M" do MVC).
@@ -17,7 +17,8 @@ public class Aluno {
     private String nome;
     private int idade;
 
-    // Construtor vazio: obrigatorio para o Spring converter o JSON do POST em objeto
+    // Construtor vazio: obrigatorio para o Spring converter o JSON do POST em
+    // objeto
     public Aluno() {
     }
 

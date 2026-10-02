@@ -3,7 +3,7 @@
 //  que esta no topo do arquivo PrimeiraApiApplication.java
 //  (ex.: package com.example.primeiraAPI;)
 // ============================================================
-package com.example.primeiraAPI;
+package primeiraAPI;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,8 +22,8 @@ import org.springframework.web.bind.annotation.RestController;
  * Recebe as requisicoes HTTP do cliente (Postman), executa a logica
  * e devolve a resposta em JSON.
  *
- * @RestController  -> avisa ao Spring que esta classe responde requisicoes web
- * @RequestMapping  -> define a rota base: tudo aqui comeca em /alunos
+ * @RestController -> avisa ao Spring que esta classe responde requisicoes web
+ * @RequestMapping -> define a rota base: tudo aqui comeca em /alunos
  */
 @RestController
 @RequestMapping("/alunos")
